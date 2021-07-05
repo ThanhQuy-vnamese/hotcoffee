@@ -14,14 +14,14 @@
                     <a href="#" class="menu_main_responsive_button icon-menu"></a>
                     <nav class="menu_main_nav_area">
                         <ul id="menu_main" class="menu_main_nav">
-                            <li class="menu-item current-menu-item"><a href="{{route('home')}}">Home</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="#">Reservations</a>
+                            <li class="menu-item" data-menu="home"><a href="{{route('home')}}">Home</a></li>
+                            <li class="menu-item menu-item-has-children" data-menu="table"><a href="#">Reservations</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="{{route('table')}}">Tables Scheme</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="{{route('menu')}}">Menu</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
+                            <li class="menu-item" data-menu="menu"><a href="{{route('menu')}}">Menu</a></li>
+                            <li class="menu-item menu-item-has-children" data-menu="blog"><a href="#">Blog</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="blog-sidebar.html">Blog With Sidebar</a></li>
                                     <li class="menu-item"><a href="{{route('blog')}}">Blog Without Sidebar</a></li>

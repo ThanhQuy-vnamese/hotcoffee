@@ -130,6 +130,7 @@
 
 <script type='text/javascript' src="{{asset('template/js/vendor/jquery/jquery.js')}}"></script>
 <script type='text/javascript' src="{{asset('template/js/vendor/jquery/jquery-migrate.min.js')}}"></script>
+<script type='text/javascript' src="{{asset('template/js/custom/menu_custom.js')}}"></script>
 <script type='text/javascript' src="{{asset('template/js/custom/custom.js')}}"></script>
 <script type='text/javascript' src="{{asset('template/js/vendor/esg/jquery.themepunch.tools.min.js')}}"></script>
 <script type='text/javascript' src="{{asset('template/js/vendor/revslider/jquery.themepunch.revolution.min.js')}}"></script>
