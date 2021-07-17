@@ -24,6 +24,8 @@ Route::get('/shop', [App\Http\Controllers\ShopController::class, 'getview'])->na
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'getview'])->name('contact');
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'getview'])->name('about');
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'getview'])->name('blog');
+Route::get('/cart', [App\Http\Controllers\CartController::class, 'getview'])->name('cart');
+Route::get('/checkout', [App\Http\Controllers\CheckoutController::class, 'getview'])->name('checkout');
 //Route::get('/login', [LoginController::class, 'getview']);
 //Route::post('/action_login', [LoginController::class, 'Login'])->name('actionLogin');
 //Route::post('/action_create', [LoginController::class, 'create'])->name('actionCreate');

@@ -65,7 +65,7 @@
                         </ul>
                     </nav>
                     <div class="contact_cart">
-                        <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
+                        <a href="{{route('cart')}}" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
                             <span class="contact_icon icon-shopping"></span>
                             <span class="contact_label contact_cart_label">Your cart:</span>
                             <span class="contact_cart_totals">
@@ -84,6 +84,9 @@
                                         </div>
                                     </div>
                                 </div>
+                            </li>
+                            <li>
+                                <a href="{{route('shop')}}">Continue Shopping</a>
                             </li>
                         </ul>
                     </div>
